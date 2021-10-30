@@ -42,8 +42,8 @@ CREATE TABLE employee_payroll (
 
 #Inserted:valuses in the table
 insert  into employee_payroll(name,salary, start) values
- ('ashish',600000.0,'2021-02-06'),
-  ('sanket',400000.0,'2021-04-06'),
+ ('Surjya',600000.0,'2021-02-06'),
+  ('aaji',400000.0,'2021-04-06'),
   ('abc',400000.0,'2021-04-06');
 SELECT 
     *
@@ -71,7 +71,7 @@ UPDATE employee_payroll
 SET 
     gender = 'M'
 WHERE
-    name = 'ashish';
+    name = 'Surjya';
 SELECT 
     salary
 FROM
@@ -114,7 +114,7 @@ UPDATE employee_payroll
 SET 
     department = 'sales'
 WHERE
-    name IN ('ashish' , 'sanket');
+    name IN ('Surjya' , 'aaji');
 SELECT 
     *
 FROM
